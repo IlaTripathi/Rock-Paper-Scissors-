@@ -87,7 +87,7 @@ body {
 
 
 
-@media (min-width : 360px) and (max-width : 450px) {
+@media (min-width : 300px) and (max-width : 450px) {
 
     .game {
         width: 100vw;
