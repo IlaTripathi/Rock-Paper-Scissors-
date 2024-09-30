@@ -86,12 +86,15 @@ body {
 }
 
 
-@media (min-width : 360px) and (max-width : 430px) {
+
+@media (min-width : 360px) and (max-width : 420px) {
 
     .game {
-        width: 428px;
-
+        width: 100vw;
+        text-align: center;
+        font-size: 2rem;
     }
+
 
     .choices {
         flex-direction: column;
@@ -102,18 +105,29 @@ body {
 
     .score {
         margin-top: 50px;
+        width: 250px;
+        margin: auto;
+        font-size: 3rem;
     }
 
-    .score .players {
-        width: 300px;
-        font-size: 3rem;
+    .players {
+        width: 250px;
+        margin: auto;
+        font-size: 2rem;
 
     }
 
     .result {
 
-        width: 300px;
+        width: 250px;
         font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
         margin-bottom: 40px;
+        padding: 10px;
+
     }
 }
